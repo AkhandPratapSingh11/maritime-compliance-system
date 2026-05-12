@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background: #f3f4f6;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+  font-weight: 600;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+input,
+textarea,
+select {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  outline: none;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #2563eb;
+}
+
+a {
+  text-decoration: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+th {
+  background: #111827;
+  color: white;
+}
+
+th,
+td {
+  padding: 16px;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background: #f9fafb;
+}
